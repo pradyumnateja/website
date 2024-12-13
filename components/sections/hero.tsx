@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { FadeIn } from "@/components/animations/fade-in";
 import { personalInfo } from "@/data/personal-info";
 
-const socialLinks = [
+export const socialLinks = [
   { Icon: Github, href: personalInfo.social.github },
   { Icon: Linkedin, href: personalInfo.social.linkedin },
   { Icon: Mail, href: personalInfo.social.email },

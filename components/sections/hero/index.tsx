@@ -4,7 +4,7 @@ import { Terminal } from "lucide-react";
 import { motion } from "framer-motion";
 import { FadeIn } from "@/components/animations/fade-in";
 import { ProfileImage } from "./profile-image";
-import { SocialLinks } from "./social-links";
+// import { SocialLinks } from "./";
 import { ContactDialog } from "../contact/contact-dialog";
 import { personalInfo } from "@/data/personal-info";
 
@@ -46,7 +46,7 @@ export function Hero() {
         </motion.p>
 
         <div className="space-y-6">
-          <SocialLinks />
+          {/* <SocialLinks /> */}
           <ContactDialog />
         </div>
       </FadeIn>

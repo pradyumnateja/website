@@ -1,6 +1,7 @@
 "use client"
 import { NextResponse } from 'next/server';
-import nodemailer from 'nogit demailer';
+import nodemailer from 'nodemailer';
+
 import { z } from 'zod';
 
 export const runtime = 'edge';
